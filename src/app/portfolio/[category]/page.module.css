@@ -1,0 +1,41 @@
+.categoryTitle {
+   color: var(--main-color)
+}
+
+.item {
+   display: flex;
+   gap: 3.125rem;
+   margin-top: 3.125rem;
+   margin-bottom: 6.25rem;
+}
+
+.item:nth-child(2n+1) {
+   flex-direction: row-reverse;
+}
+
+.imageContainer {
+   flex: 1;
+   height: 31.25rem;
+   position: relative;
+}
+
+.image {
+   object-fit: cover;
+}
+
+.content {
+   flex: 1;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   gap: 1.25rem;
+}
+
+.contentTitle {
+   font-size: 3.125rem;
+   color: #fff
+}
+
+.contentDescription {
+   font-size: 1.25rem;
+}

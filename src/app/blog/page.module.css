@@ -1,0 +1,33 @@
+.item {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 3.125rem;
+   margin-bottom: 3.125rem;
+}
+
+.imageContainer {
+   width: 25rem;
+   height: 15.625rem;
+   position: relative;
+   flex: 1
+}
+
+.image {
+   object-fit: cover;
+}
+
+.content {
+   flex: 1;
+   color: #999;
+}
+
+.contentTitle {
+   margin-bottom: 0.625rem;
+
+}
+
+.contentDescription {
+   font-size: 1.125rem;
+
+}
